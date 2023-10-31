@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Font awesome-->
+     <script src="https://kit.fontawesome.com/fcf14f70db.js" crossorigin="anonymous"></script>
+     <!--Font awesome cdnjs-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--Material icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Custom css-->
+     <link rel="stylesheet" href="style.css">
+    <title>Dashboard-Admin</title>
+</head>
+<body>
+
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper">
+            <div class="container">
+                <a href="" class="brand-logo black-text">Home</a>
+
+                <a href="#" data-target="slide-out" class="sidenav-trigger"> <i 
+                class="material-icons black-text">menu</i></a>
+
+             <li class="right">
+                <a href="" class="black-text">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+             </li>
+                    
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="" class="black-text">Buy now</a>
+                    </li>
+                    <li>
+                        <a href="" class="black-text"><i class="fa-solid fa-bell"></i></a>
+                    </li>
+                 </ul>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+
+    <!---Dashboard-->
+    <br>
+    <div class="container">
+        <h2>Dashboard</h2>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card-panel">
+                    <h6
+                    class="dashboard-title">Revenue</h6>
+                    
+                    <p class="card-value">$12,476.00</p>
+                    <span class="green-text" ><i class="fa-solid fa-angle-up"></i>12%</span>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel">
+                    <h6
+                    class="dashboard-title">Clicks</h6>
+                    <p class="card-value">11,893</p>
+                    <span class="green-text"><i class="fa-solid fa-angle-up"></i>8%</span>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel">
+                    <h6
+                    class="dashboard-title">Users</h6>
+                    <p class="card-value">230,648</p>
+                    <span class="red-text"><i class="fa-solid fa-angle-up"></i>2%</span>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel">
+                    <h6
+                    class="dashboard-title">Convension Rate</h6>
+                    <p class="card-value">0.24%</p>
+                    <span class="red-text"><i class="fa-solid fa-angle-up"></i>12%</span>
+                </div>
+             </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <!--Chart panel-->
+            <div class="row">
+                <div class="col s12">
+                <div 
+                class="card-panel">
+                <div class="row center">
+                    <div class="col s4">
+                        <h6
+                        class="dashboard-title">Revenuee</h6>
+                         <p class="card-value">$12,476.00</p>
+                        <span class=""><i class="fa-solid fa-angle-up"></i>12%</span>
+                    </div>
+
+                    <div class="col s4">
+                        <h6
+                        class="dashboard-title">Users</h6>
+                        <p class="card-value">2024</p>
+                        <span class=""><i class="fa-solid fa-angle-up"></i>9%</span>
+                    </div>
+
+                    <div class="col s4">
+                        <h6
+                        class="dashboard-title">CTR</h6>
+                        <p class="card-value">0.20%</p>
+                        <span class=""><i class="fa-solid fa-angle-up"></i>4%</span>
+                    </div>
+                    <div class="col s12">
+                        <div class="card-panel z-depth-0" id="chartContainer" style="height: 370px; width: 100%;">
+
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+         </div>
+      </div>
+    </div>
+    <!--Chart Updates-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card-panel">
+                  <div class="row">
+                    <div class="col s4">
+                        <h5>Updates</h5>
+                        <span class="red white-text">refund</span>
+                        <p>Chang</p>
+
+                        <h5>Updates</h5>
+                        <span class="green white-text">purchase</span>
+                        <p>Chang</p>
+
+                        <h5>Updates</h5>
+                        <span class="red white-text">refund</span>
+                        <p>Chang</p>
+                  </div> 
+                  <div class="col s8">
+                        <p>45$ refunded to Alan</p>
+                        <span>14 minutes ago</span>
+                        <p>45$ refunded to Alan</p>
+                        <span>14 minutes ago</span>
+                        <p>45$ refunded to Alan</p>
+                        <span>14 minutes ago</span>
+                  </div>  
+                </div> 
+             </div>
+                    <div class="card-panel">
+                        <h5>Stached Bar Chart</h5>
+                        <div class="card-panel z-depth-0">
+                        <img src="/Images/img14.png" alt="" class="responsive-img">
+                    </div>
+                </div>  
+            </div>
+            <div class="col s12 m6 card-panel">
+                <img src="/Images/img15.jpg"alt="" class="responsive-img"
+            </div>
+        </div>
+    </div>
+    <div style="height: 1000px8;"></div>
+
+
+
+
+
+    
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script src="JS charts.js"></script>
+            
+</body>
+</html>
